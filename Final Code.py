@@ -51,3 +51,4 @@ file = open('six_months_access_log.txt')
 data = file.read()
 lastsixrequests = data.count("GET")
 print ('TOTAL NUMBER OF REQUESTS OVER LAST SIX MONTHS FROM 11 OCT 1995 :', lastsixrequests)
+
