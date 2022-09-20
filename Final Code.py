@@ -6,7 +6,7 @@ Using this log file, it will be parsed to show the total number of logs in the p
 
 '''
 
-#import necessary modules
+#import necessary modules for program to run correctly
 import requests 
 import os 
 from os.path import exists 
@@ -28,12 +28,13 @@ if file_exists == False: # conditional statement so the program will be able to 
     for chunk in r.iter_content(chunk_size = 8192):
         if chunk:
             f.write(chunk)
-    f.close() # this whole chunk of code creates the file, writes the data from the object to it, then closes and saves itself.
+    f.close() # Creates the file, writes the data from the object to it, then closes and saves itself.
 
-# Get a count of how many total requests are in the log
+# Get a count of how many total requests are in the entire log
 file = open('http_access_log.txt') 
 data = file.read()
 requests = data.count("GET")
+#prints the first output of the program, the total requests from the log
 print ('TOTAL REQUESTS IN LOG :', requests)
 
 
@@ -50,5 +51,6 @@ with open('six_months_access_log.txt', 'w') as sixmon2:
 file = open('six_months_access_log.txt') 
 data = file.read()
 lastsixrequests = data.count("GET")
+#prints the final output of the program, the number of requests from the last six months, according to the log (11 OCT 1995)
 print ('TOTAL NUMBER OF REQUESTS OVER LAST SIX MONTHS FROM 11 OCT 1995 :', lastsixrequests)
 
