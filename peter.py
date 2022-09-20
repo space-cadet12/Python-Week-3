@@ -3,7 +3,7 @@
 "Welcome to my website"
 
 read "The How many total requests have been made in the 6 months?"
-Echo "the Total request made in 6 months was  
+echo "the Total request made in 6 months was  
 
 read "How many total requests were made in the time period represented by the log?"
-Echo "The total request made represented by the log was 
+echo "The total request made represented by the log was 
