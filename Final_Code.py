@@ -1,8 +1,8 @@
 '''
 Group 1 Project 3
 This program will attain a specific HTTP log file from a server on the internet.
-Then the program checks if the log file is where it needs to be.
-Using this log file, it will be parsed to show the total number of logs in the past 6 months, and all time logs.
+The program will then check that the log file is where it needs to be.
+Using this log file, it will be parsed to show the total number of logs in the past 6 months, as well as all time logs.
 
 '''
 
