@@ -53,4 +53,3 @@ data = file.read()
 lastsixrequests = data.count("GET")
 #prints the final output of the program, the number of requests from the last six months, according to the log (11 OCT 1995)
 print ('TOTAL NUMBER OF REQUESTS OVER LAST SIX MONTHS FROM 11 OCT 1995 :', lastsixrequests)
-
