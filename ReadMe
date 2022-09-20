@@ -8,9 +8,9 @@ and I will expect to see a log of individual contributions (commits from each te
 
 The goal of this project is to familiarize yourself with Python syntax, and some basic tasks that are common in systems programming and administration.
 The program will be invoked from the command line on a fresh Linux machine, so if you introduce any library dependencies beyond the Python Standard Library (not recommended), 
-you must provide very clear instructions to recreate your environment. I would suggest using Vagrant (Links to an external site.) or a GCP (Links to an external site.)
-VM to develop in Linux if you are on a Windows machine. Another option is to install the Windows Subsystem for Linux (Links to an external site.) 
-and setup a Python environment (Links to an external site.). It is your responsibility to ensure the program runs as expected in the operational environment described.
+you must provide very clear instructions to recreate your environment. I would suggest using Vagrant, or a GCP VM to develop in Linux if you are on a Windows machine.
+Another option is to install the Windows Subsystem for Linux and setup a Python environment. It is your responsibility to ensure the program runs as expected
+in the operational environment described.
 
 Here’s the scenario: you work for a medium sized company that sells widgets directly to consumers through brick-and-mortar retail stores. 
 The marketing department wants to try a new promotional campaign to ramp up direct internet sales, but needs better data about current traffic to your website. 
